@@ -1,0 +1,139 @@
+.main_head{
+  height:100px;
+  margin-top: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.bgcol{
+  background-color:#ECF0F1;
+}
+.textbox{
+  width: 350px;
+  padding: 12px 10px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ height: 40px;
+}
+.rows{
+  background-color: #ECF0F1  ;
+
+}
+.reqfields{
+  color: red;
+}
+h6{
+  margin-top: 12px;
+}
+textarea{
+  resize: none;
+}
+.submitbtn{
+  width: 350px;
+  background-color: #939393;
+  padding: 10px 10px;
+  margin: 8px 0;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 50px;
+
+}
+.submitbtn:hover{
+  background-color: black;
+  color:white;
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(2,0,0,0.8);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.pv{
+  margin-top: 30px;
+  float: right;
+  margin-left: 10px;
+  font-size: 15px;
+  width: 20px;
+  cursor: pointer;
+}
+.head2{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.note{
+  font-size: 14px;
+}
+.list{
+   list-style-type: none;
+  display: inline-block;
+}
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding:8px;
+  background-color:white;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 20px;
+    transition: background-color .25s ease-in-out;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: none;
+
+  color:white;
+  background-color: grey;
+}
+.hrstyle{
+  height: 12px;
+    border: 0;
+    width:100%;
+    box-shadow: inset 0 8px 12px -15px rgba(0, 0, 0, 0.5);
+
+}
+.selected{
+  color:black;
+}
+.rowstart{
+  margin-top: 20px;
+}
+.cbg{
+  background-color: white;
+}
+.icpencil{
+  margin-top: 40px;
+  margin-left: 30px;
+  width:20px;
+  height: 20px;
+}
+.icsize{
+  width: 18px;
+  height: 18px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+p{
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .linkrow {
+        margin-top: 60px;
+  }
+  .rhead{
+    height: 120px;
+  }
+  .icpencil{
+    margin-top: 0px;
+  }
+  .pv{
+    margin-top: 0px;
+  }
+}
